@@ -13,7 +13,7 @@ void main() {
 		}*/
 	//	cout << word << endl;
 	//2.读文件时可以使用getline， 保留文本的空格信息
-	string word;
+	/*string word;
 	while (getline(cin, word))
 	{
 		if (word=="exit")
@@ -21,7 +21,7 @@ void main() {
 			break;
 		}
 		cout << word << endl;
-	}
+	}*/
 	//3.string的empty函数与size函数
 	/*string word;
 	while (getline(cin, word))
