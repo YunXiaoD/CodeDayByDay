@@ -95,11 +95,20 @@ void copyAndDelete() {
 
 }
 
+void constPtrTest() {
+	vector<const char*> articles = { "a","an","the" };
+	char* c1 = "ann";
+	string s1 = articles[0];
+	string s2 = c1;
+	cout << endl;
+}
+
 int main() {
 	//vectorInset();
 	//testFrontAddr();
 	//testIterDeque();
-	copyAndDelete();
+	//copyAndDelete();
+	constPtrTest();
 	list<string> vv1 = { "a","an","the" };
 	auto iter4 = vv1.begin();
 	cout << &iter4 << endl;
